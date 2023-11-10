@@ -1,6 +1,6 @@
 n = int(input())
 
-arr = [0 for _ in range(100)]
+arr = [0 for _ in range(101)]
 
 for _ in range(n):
     (x1, x2) = tuple(map(int, input().split()))
